@@ -21,5 +21,14 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <info@example.com>' . "\r\n";
 $headers .= 'Cc: sales@example.com' . "\r\n";
 
-mail($to,$subject,$message,$headers);
+try {
+    if(mail($to,$subject,$message,$headers)) {
+        echo 'success!';
+    }
+    else {
+        echo 'cannot send :(';
+    }
+} catch (Exception $e) {
+    echo 'error: '.$e;
+}
 ?>
