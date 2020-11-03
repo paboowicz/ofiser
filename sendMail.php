@@ -30,8 +30,8 @@ if(isset($_POST['name']) && isset($_POST['email'])) {
         $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
         //Recipients
-        $mail->setFrom('formularz@ofiser.pl', 'Ofiser.pl');
-        $mail->addAddress($email, $email);     // Add a recipient
+        $mail->setFrom($email, $email);
+        $mail->addAddress('formularz@ofiser.pl', 'Ofiser.pl');     // Add a recipient
 //        $mail->addAddress('ellen@example.com');               // Name is optional
 //        $mail->addReplyTo('info@example.com', 'Information');
 //        $mail->addCC('cc@example.com');
