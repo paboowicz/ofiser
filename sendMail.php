@@ -25,7 +25,7 @@ if(isset($_POST['name']) && isset($_POST['email'])) {
         $mail->Host       = 'smtp.zoho.eu';                    // Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
         $mail->Username   = 'formularz@ofiser.pl';                     // SMTP username
-        $mail->Password   = '';                               // SMTP password
+        $mail->Password   = 'kq9@c$8b%nUJ!MF^96k';                               // SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
         $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
