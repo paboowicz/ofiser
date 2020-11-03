@@ -1,5 +1,5 @@
 <?php
-$to = "user1@example.com, user2@example.com";
+$to = "tomek@appgo.pl, formularz@ofiser.pl";
 $subject = "This is a test HTML email";
 
 $message = "
