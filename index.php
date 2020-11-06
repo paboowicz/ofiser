@@ -654,7 +654,7 @@
 
 
                         <div class="display-inline-block margin-five no-margin-tb no-margin-right padding-top-5px">
-                            <?php include_once('./sendMail.php') ?>
+                            <?php include_once('sendMail.php') ?>
                         </div>
 
                         <!--<div class="margin-seven-top text-small2 sm-width-100 center-col tz-text xs-line-height-20">* We don't share your personal info with anyone. Check out our <a href="#" class="text-decoration-underline tz-text">Privacy Policy</a> for more information.</div> -->
