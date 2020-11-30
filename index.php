@@ -709,13 +709,19 @@
             <div class="container">
                 <div class="row equalize sm-equalize-auto">
                     <!-- logo -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 sm-text-center sm-margin-five-bottom xs-margin-nine-bottom display-table">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 sm-text-center sm-margin-five-bottom xs-margin-nine-bottom display-table">
                         <div class="display-table-cell-vertical-middle">
                             <a href="#home" class="inner-link"><img src="images/logo-white.png" alt="" data-img-size="(W)163px X (H)39px"></a>
                         </div>
                     </div>
-                    <!-- end logo -->
-                    <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 sm-margin-three-bottom text-center xs-text-center display-table">
+					<!-- end logo -->
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 sm-margin-three-bottom text-center xs-text-center display-table">
+                        <div class="display-table-cell-vertical-middle">
+                            <a href="files/polityka_prywatnosci.pdf"" class="inner-link" target="_blank"><span class="text-white">Polityka prywatności</span></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 sm-margin-three-bottom text-center xs-text-center display-table">
                         <div class="display-table-cell-vertical-middle">
                             <span class="text-white">&copy; 2020 Ofiser Sp. z o.o. <!--<a class="text-light-gray2" href="http://www.themezaa.com/">ThemeZaa</a>--></span>
                         </div>
