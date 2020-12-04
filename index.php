@@ -144,7 +144,7 @@
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center xs-margin-fifteen-bottom">
                         <div class="feature-box">
                             <div class="margin-fifteen-bottom xs-margin-five-bottom"><i class="fa ti-check text-fast-blue2 icon-large tz-icon-color"></i></div>
-                            <h3 class="feature-title text-dark-gray text-medium alt-font display-block margin-three-bottom xs-margin-five-bottom tz-text">sprawdź bez zobowiązań</h3>
+                            <h3 class="feature-title text-dark-gray text-medium alt-font display-block margin-three-bottom xs-margin-five-bottom tz-text">integracja z programem Płatnik</h3>
                           <!--  <div class="feature-text text-medium center-col tz-text"><p class="no-margin-bottom">Lorem Ipsum is simply dummy of the printing and typesetting and industry. Lorem Ipsum been.</p></div>-->
                         </div>
                     </div>
